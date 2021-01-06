@@ -59,7 +59,7 @@ const scrolling = () => {
         element.addEventListener('click', () => {
             let toElement = document.getElementById(element.getAttribute("data-nav"));
             // toElement.scrollIntoView({ behavior: "smooth", block: "center" });
-            toElement.scrollIntoView({ behavior: "smooth", block: 'center', inline: 'center' });
+            toElement.scrollIntoView({ behavior: "smooth", block: "end" });
         })
 
     });
