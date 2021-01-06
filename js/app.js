@@ -7,7 +7,7 @@ const navbar = document.querySelector('.nav-bar');
 
 //function for "setAttribute"
 const setAttributes = (el, attrs) => {
-    for (var key in attrs) {
+    for (const key in attrs) {
         el.setAttribute(key, attrs[key]);
     }
 }
